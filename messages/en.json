@@ -1,0 +1,10 @@
+{
+    "Services": {
+      "contactus": "Contact Us",
+      "service": "Services",
+      "portfolio": "Projects",
+      "analytic": "Analytics",
+      "blog": "Blog",
+      "whous": "About Us"
+    }
+  }

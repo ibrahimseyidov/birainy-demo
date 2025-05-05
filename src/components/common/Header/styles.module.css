@@ -1,0 +1,183 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding-block: 32px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.languageSelector {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.langToggle {
+  background: none;
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #000;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.langToggle:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.langDropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  min-width: 180px;
+  z-index: 100;
+}
+
+.langOption {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+  gap: 12px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.langOption:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.langOption span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.langOption img {
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+
+.logoHighlight {
+  color: #ffdc00;
+}
+
+.navigation {
+  display: flex;
+  gap: 2rem;
+}
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: #f5f5f7;
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  border-radius: 16px;
+  padding: 14px 28px;
+}
+
+.navLink {
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navLink:hover {
+  color: #ffdc00;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialIcon {
+  color: #333;
+  font-size: 1.2rem;
+  transition: color 0.2s ease;
+}
+
+.socialIcon:not(:last-child) {
+  border-right: 1px solid #727272;
+  padding-right: 20px;
+}
+
+.socialIcon:hover {
+  color: #ffdc00;
+}
+
+.contactButton {
+  background-color: #ffdc00;
+  text-wrap: nowrap;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  padding: 0.7rem 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contactButton:hover {
+  background-color: #f0d000;
+}
+
+.languageSelector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  background-color: #e0dfdf;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.languageSelector:hover {
+  background-color: #eaeaea;
+}
+
+

@@ -1,0 +1,40 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .primary {
+    background-color: #ffd700;
+    color: #000;
+  }
+  
+  .primary:hover {
+    background-color: #e6c200;
+  }
+  
+  .secondary {
+    background-color: #e9ecef;
+    color: #212529;
+  }
+  
+  .secondary:hover {
+    background-color: #dee2e6;
+  }
+  
+  .icon {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+  
+  .text {
+    white-space: nowrap;
+  }
+  

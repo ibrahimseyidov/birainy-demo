@@ -1,0 +1,167 @@
+.footer {
+  width: 100%;
+  max-width: 1840px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  padding: 32px 0px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  max-width: 400px;
+  line-height: 1.2;
+}
+
+.followSection {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.followText {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.socialLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(10%) saturate(0%)
+    hue-rotate(312deg) brightness(102%) contrast(101%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.socialLink:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navigationSection {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.navLink:hover {
+  opacity: 0.7;
+}
+
+.officesSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.officeBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.officeCountry {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.officeAddress {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #efefef;
+  margin-bottom: 30px;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partnerSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.partnerIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partnerText {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.microsoftLogo {
+  display: flex;
+  align-items: center;
+}
+
+.contactSection {
+  display: flex;
+  gap: 20px;
+}
+
+.contactItem {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.contactItem:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1220px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+

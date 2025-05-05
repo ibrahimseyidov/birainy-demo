@@ -1,0 +1,18 @@
+<svg viewBox="0 0 100 100" width="300" height="300">
+  <defs>
+    <path id="circle" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"></path>
+  </defs>
+  <text fontSize="9" fill="black">
+    <textPath href="#circle">SİFARİŞ ET ⚡ SİFARİŞ ET ⚡ SİFARİŞ ET ⚡ SİFARİŞ ET ⚡</textPath>
+  </text>
+  
+  <!-- Dönme animasyonu ekleyelim -->
+  <animateTransform 
+    attributeName="transform"
+    attributeType="XML"
+    type="rotate"
+    from="0 50 50"
+    to="360 50 50"
+    dur="10s"
+    repeatCount="indefinite"/>
+</svg>

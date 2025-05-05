@@ -1,0 +1,98 @@
+.container {
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.leftArea {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.star {
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.logoRight {
+  width: 136px;
+  height: 136px;
+  border-radius: 100%;
+  background: #000;
+  position: relative;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.logoImage {
+  border-radius: 50%;
+}
+
+.description {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 16px;
+  max-width: 800px;
+  line-height: normal;
+}
+
+.arrow {
+  position: absolute;
+  left: calc(50% - 29px);
+  top: calc(50% - 23px);
+  transform: rotate(-30deg);
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.logoRight:hover .arrow {
+  transform: rotate(0deg); /* -30 + 60 = 30° sağa dönüş */
+}
+
+.logoRight:hover svg  {
+  animation-play-state: paused;
+
+}
+
+.logoRight svg {
+  animation: spin 9s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,.64);
+  margin: 20px 0;
+}
+
+.main {
+  display: flex;
+  gap: 40px;
+}
